@@ -1,0 +1,76 @@
+html{
+    font-family: 'Poppins', sans-serif;
+    background-color: azure;
+}
+
+/* Estilos del Header*/
+header {
+    text-align: center;
+}
+
+/*Estilo de Titulos*/
+#titulo-principal {
+    background-color: #C4C4C4;
+    border-radius: 50px;
+    box-sizing: border-box;
+    color: #005677;
+    font-weight: 700;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    width: fit-content;
+    border: solid 4px rgb(87, 123, 134);
+}
+
+.titulo-secundario {
+    background-color: #C4C4C4;
+    color: #005677;;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 30px;
+    width: fit-content;
+    border: solid 4px rgb(87, 123, 134);
+    box-sizing: border-box;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+/*Estilo de las listas*/
+.datos-principales{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.anios{
+    font-weight: bold;
+}
+
+.especialidad{
+    position: relative;
+    bottom: 20px;
+    margin-left: 90px;
+    margin-bottom: -15px;
+}
+
+/*Estilo de Footer*/
+#ultimo-footer{
+    background-color: #005677;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: 25%;
+    border: solid 3px rgb(87, 123, 134);
+    border-radius: 30px;
+}
+
+.iconos{
+    margin-left: 10px;
+    position: relative;
+    top: 3px;
+}
+
